@@ -19,9 +19,9 @@ function nextSlide() {
   showSlide(currentIndex);
 }
 
-// function startAutoSlide() {
-//   autoSlideInterval = setInterval(nextSlide, 2000); 
-// }
+function startAutoSlide() {
+  autoSlideInterval = setInterval(nextSlide, 2000); 
+}
 
 function stopAutoSlide() {
   clearInterval(autoSlideInterval);
